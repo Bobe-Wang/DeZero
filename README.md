@@ -2,10 +2,9 @@
 <a href="https://www.amazon.co.jp/dp/4873119065/ref=cm_sw_r_tw_dp_U_x_KiA1Eb39SW14Q"><img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/deep-learning-from-scratch-3.png" height="250"></a>
 </p>
 
-## 本書概要
+## 本书概述
 
-本書では「DeZero」というディープラーニングのフレームワークを作ります。DeZeroは本書オリジナルのフレームワークです。最小限のコードで、フレームワークのモダンな機能を実現します。本書では、この小さな——それでいて十分にパワフルな——フレームワークを、全部で60のステップで完成させます。それによって、PyTorch、TensorFlow、Chainerなどの現代のフレームワークに通じる深い知識を養います。
-
+在本书中，我们将创建一个名为“DeZero”的深度学习框架。 DeZero是本书的原创框架。 用最少的代码实现框架的现代功能。 在本书中，我们将通过 60 个步骤完成这个小而强大的框架。 这将加深对 PyTorch、TensorFlow 和 Chainer 等现代框架的了解。
 
 <p>
 <img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/dezero_logo.png" width="400px" </p>
@@ -23,40 +22,34 @@
 		src="https://travis-ci.org/oreilly-japan/deep-learning-from-scratch-3.svg?branch=master"></a>
 </p>
 
-## ニュース
-<a href="https://koki0702.github.io/dezero-book/"><img src="https://raw.githubusercontent.com/koki0702/koki0702.github.io/master/dezero-book/images/summary_ja.png" height="150px"></a>
 
-【試し読み】本書の一部をオンラインで公開しています。
-https://koki0702.github.io/dezero-book/
+## 文件组织
 
-
-## ファイル構成
-
-|フォルダ名 |説明         |
+|文件夹名称 |説明         |
 |:--        |:--                  |
-|[dezero](/dezero)       |DeZeroのソースコード|
-|[examples](/examples)     |DeZeroを使った実装例|
-|[steps](/steps)|各stepファイル（step01.py ~ step60.py）|
-|[tests](/tests)|DeZeroのユニットテスト|
+|[dezero](/dezero)       |DeZero源代码|
+|[examples](/examples)     |DeZero的使用实现示例|
+|[steps](/steps)|每个步骤文件（step01.py ~ step60.py）|
+|[tests](/tests)|DeZero单元测试|
 
 
-## 必要な外部ライブラリ
+## 所需的外部库
 
-本書で使用するPytnonのバージョンと外部ライブラリは下記の通りです。
+本书使用的Python版本和外部库如下。
 
 - [Python 3系](https://docs.python.org/3/)
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
 
-またオプションとして、NVIDIAのGPUで実行できる機能も提供します。その場合は下記のライブラリが必要です。
+它还提供在 NVIDIA GPU 上运行的选项。 在这种情况下，需要以下库。
 
-- [CuPy](https://cupy.chainer.org/) （オプション）
+- [CuPy](https://cupy.chainer.org/) （选项）
 
 
-## 実行方法
+## 运行方法
 
-本書で説明するPythonファイルは、主に[steps](/steps)ファルダにあります。
-実行するためには、下記のとおりPythonコマンドを実行します（どのディレクトリからでも実行できます）。
+本书讲解的Python文件主要位于[steps](/steps)文件夹中。
+要运行它，请运行下面的 Python 命令（您可以从任何目录运行它）。
 
 ```
 $ python steps/step01.py
@@ -66,9 +59,9 @@ $ cd steps
 $ python step31.py
 ```
 
-## デモ
+## 演示
 
-DeZeroの他の実装例は[examples](/examples)にあります。
+DeZero的其它实现示例可以在 [examples](/examples)中找到。
 
 [<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/example_tanh.png" height="175"/>](https://github.com/oreilly-japan/deep-learning-from-scratch-3/tree/tanh)[<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/example_spiral.png" height="175"/>](/examples/spiral.py)[<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/example_gpu.png" height="175"/>](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-3/blob/master/examples/mnist_colab_gpu.ipynb)
 
@@ -76,8 +69,3 @@ DeZeroの他の実装例は[examples](/examples)にあります。
 
 [<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/style_transfer.png" height="175"/>](/examples/style_transfer.py)[<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/pythonista.png" height="175"/>](https://github.com/oreilly-japan/deep-learning-from-scratch-3/wiki/DeZero%E3%82%92iPhone%E3%81%A7%E5%8B%95%E3%81%8B%E3%81%99)
 
-## 正誤表
-
-本書の正誤情報は、[:mag_right: 正誤表ページ](../../wiki/Errata)に掲載しています。
-
-正誤表ページに掲載されていない誤植や間違いなどを見つけた方は、[:email: japan@oreilly.co.jp](<mailto:japan@oreilly.co.jp>)までお知らせください。
